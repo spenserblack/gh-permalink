@@ -4,7 +4,7 @@ go 1.20
 
 require (
 	github.com/cli/go-gh/v2 v2.0.1
-	github.com/cli/safeexec v1.0.0
+	github.com/cli/safeexec v1.0.1
 	golang.org/x/exp v0.0.0-20230522175609-2e198f4a06a1
 )
 
