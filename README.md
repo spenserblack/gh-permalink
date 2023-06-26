@@ -37,3 +37,10 @@ gh permalink my-file
 # now you have a permalink to my-file at the commit tagged by v0.1.0
 git checkout -  # go back to where you were previously checked out
 ```
+
+## Caveats
+
+While this can create a permalink for any commit, that permalink will
+return a 404 error if the commit is not pushed. This extension doesn't
+handle pushing commits for you, so you'll need to do that yourself if
+you want to create a permalink to a file that may be ahead of the remote.
