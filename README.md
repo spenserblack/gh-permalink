@@ -28,8 +28,7 @@ gh permalink my-file 1-5
 
 #### Permalinking Commits
 
-This extension creates a permalink from the current HEAD commit. Basically, what you
-see is what this extension will make a permalink to. If you need to create a permalink
+This extension creates a permalink from the current HEAD commit. If you need to create a permalink
 to a different commit, checkout that commit first.
 
 ```shell
