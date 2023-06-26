@@ -23,3 +23,18 @@ gh permalink my-file 1
 # Permalink a range of lines
 gh permalink my-file 1-5
 ```
+
+### Advanced
+
+#### Permalinking Commits
+
+This extension creates a permalink from the current HEAD commit. Basically, what you
+see is what this extension will make a permalink to. If you need to create a permalink
+to a different commit, checkout that commit first.
+
+```shell
+git checkout v0.1.0
+gh permalink my-file
+# now you have a permalink to my-file at the commit tagged by v0.1.0
+git checkout -  # go back to where you were previously checked out
+```
